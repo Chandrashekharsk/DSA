@@ -1,9 +1,7 @@
 import java.util.Arrays;
 
-// Range of numbers unknown
 public class FindMisNum {
 
-  // Making instance variable
   int expectedNext;
 
   public int missingNumber(int[] arr){

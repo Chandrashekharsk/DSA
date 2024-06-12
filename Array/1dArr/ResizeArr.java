@@ -1,7 +1,7 @@
 public class ResizeArr{
 
-  public int[] resize(int[] arr, int capacity){
-    int[] temp = new int[capacity];
+  public int[] resize(int[] arr, int newSize){
+    int[] temp = new int[newSize];
     
     for(int i=0; i<arr.length; i++){
       temp[i] = arr[i];
